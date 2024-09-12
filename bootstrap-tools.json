@@ -583,7 +583,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "twbhadra"
                 },
@@ -611,7 +611,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Linux-${HOST-ARCH}-BuildTools",
                     "Package": "twbhadra"
                 },
@@ -642,7 +642,7 @@
                 "VersionString": "17.0.11",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "java"
                 },
@@ -791,7 +791,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "androidx"
                 },
@@ -874,7 +874,7 @@
             "Linux": {
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Linux-${HOST-ARCH}-BuildTools",
                     "Package": "linuxbison"
                 },
@@ -936,7 +936,7 @@
                 "VersionString": "7.2",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "gradle"
                 },
@@ -965,7 +965,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "twclangformat"
                 },
@@ -1026,7 +1026,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Windows-Build-Libs",
                     "Package": "googletest"
                 },
@@ -1052,7 +1052,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Linux-Build-Libs",
                     "Package": "googletest"
                 },
@@ -1079,7 +1079,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "MacOS-Build-Libs",
                     "Package": "googletest"
                 },
@@ -1137,7 +1137,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "windows_app_runtime"
                 },
@@ -1168,7 +1168,7 @@
                 "ForPipelineOnly": true,
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "report_generator"
                 },
@@ -1199,7 +1199,7 @@
                 "ForPipelineOnly": true,
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "junit2html"
                 },
@@ -1227,7 +1227,7 @@
                 "ForPipelineOnly": true,
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Linux-${HOST-ARCH}-BuildTools",
                     "Package": "junit2html"
                 },
@@ -1255,7 +1255,7 @@
                 "ForPipelineOnly": true,
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "MacOS-${HOST-ARCH}-BuildTools",
                     "Package": "junit2html"
                 },
@@ -1321,7 +1321,7 @@
                 "VersionString": "1.0.0",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TallyWorld",
+                    "Organization": "TWInduction2024",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "winui3package"
                 },
@@ -1347,7 +1347,7 @@
         }
     ],
     "ValidationCMakeFile": "${BootstrapURL}/CMake/ValidateEnvironment.cmake",
-    "VSSettingsFile": "${BootstrapURL}/TallyWorld.vssettings",
+    "VSSettingsFile": "${BootstrapURL}/TWInduction2024.vssettings",
     "VisualStudioOptions": [
         {
             "Category": "TextEditor",
