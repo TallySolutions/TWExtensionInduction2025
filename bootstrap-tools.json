@@ -290,7 +290,7 @@
         {
             "Name": "git",
             "Windows": {
-                "VersionString": "2.46.0",
+                "VersionString": "2.45.0",
                 "VersionInfo": {
                     "Command": "git version",
                     "OutputType": "PlainText",
@@ -352,7 +352,7 @@
                 ]
             },
             "Linux": {
-                "VersionString": "2.40.0",
+                "VersionString": "2.46.0",
                 "VersionInfo": {
                     "Command": "git version",
                     "OutputType": "PlainText",
