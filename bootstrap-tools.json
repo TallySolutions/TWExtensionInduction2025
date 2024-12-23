@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/TallySolutions/TWVSExtension/DevTrunk/bootstrap-tools-schema.json",
+    "$schema": "https://raw.githubusercontent.com/TWExtensionInduction2025/TWVSExtension/DevTrunk/bootstrap-tools-schema.json",
     "Version": "2.1",
     "ADOArtifcatories": [
         {
@@ -19,21 +19,21 @@
         {
             "Name": "TWAppIDCompiler",
             "LanguageService": {
-                "BundlePathUrl": "https://github.com/TallySolutions/TWVSExtension/raw/DevTrunk/TextMateLanguageGrammers/TWAppIDCompiler.tmbundle.zip",
+                "BundlePathUrl": "https://github.com/TallySolutions/TWExtensionInduction2025/raw/DevTrunk/TextMateLanguageGrammers/TWAppIDCompiler.tmbundle.zip",
                 "BundlePathLocal": "${UserProfile}\\.vs\\Extensions\\TextMateLanguageGrammers\\TWAppIDCompiler.tmbundle.zip"
             }
         },
         {
             "Name": "Kotlin",
             "LanguageService": {
-                "BundlePathUrl": "https://github.com/TallySolutions/TWVSExtension/raw/DevTrunk/TextMateLanguageGrammers/Kotlin.tmbundle.zip",
+                "BundlePathUrl": "https://github.com/TallySolutions/TWExtensionInduction2025/raw/DevTrunk/TextMateLanguageGrammers/Kotlin.tmbundle.zip",
                 "BundlePathLocal": "${UserProfile}\\.vs\\Extensions\\TextMateLanguageGrammers\\Kotlin.tmbundle.zip"
             }
         },
         {
             "Name": "Swift",
             "LanguageService": {
-                "BundlePathUrl": "https://github.com/TallySolutions/TWVSExtension/raw/DevTrunk/TextMateLanguageGrammers/Swift.tmbundle.zip",
+                "BundlePathUrl": "https://github.com/TallySolutions/TWExtensionInduction2025/raw/DevTrunk/TextMateLanguageGrammers/Swift.tmbundle.zip",
                 "BundlePathLocal": "${UserProfile}\\.vs\\Extensions\\TextMateLanguageGrammers\\Swift.tmbundle.zip"
             }
         }
