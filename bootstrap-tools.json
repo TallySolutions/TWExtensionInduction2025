@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/TWExtensionInduction2025/TWVSExtension/DevTrunk/bootstrap-tools-schema.json",
+    "$schema": "https://aw.githubusercontent.com/TallySolutions/TWExtensionInduction2025/DevTrunk/bootstrap-tools-schema.json",
     "Version": "2.1",
     "ADOArtifcatories": [
         {
