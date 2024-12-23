@@ -1,16 +1,14 @@
 {
-    "$schema": "https://raw.githubusercontent.com/TallySolutions/TWExtensionInduction2024/DevTrunk/bootstrap-tools-schema.json",
-    "Version"               :  "2.1",
-    "ADOArtifcatories"      :
-    [
+    "$schema": "https://raw.githubusercontent.com/TallySolutions/TWVSExtension/DevTrunk/bootstrap-tools-schema.json",
+    "Version": "2.1",
+    "ADOArtifcatories": [
         {
-            "Name"          : "ADOService",
-            "Uri"           : "https://dev.azure.com",
-            "Feed"          : "https://feeds.dev.azure.com",
-            "Organizations" :
-            [
-                              "TWInduction2024"
-            ] 
+            "Name": "ADOService",
+            "Uri": "https://dev.azure.com",
+            "Feed": "https://feeds.dev.azure.com",
+            "Organizations": [
+                "TallyWorld"
+            ]
         }
     ],
     "DefaultToolsDir": {
@@ -120,6 +118,81 @@
                     ],
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+MacOS+x64+and+ARM64+Host#InstallRequiredSoftwareonMacOSx64andARM64Host-InstallCMake"
 
+                }
+            }
+        },
+        {
+            "Name": "TWBaseBuildSystem",
+            "Windows": {
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Common-BuildTools",
+                    "Package": "twbasebuildsystem"
+                },
+                "VersionInfo": {
+                    "Command": "type ${InstallDir}\\twbasebuildsystem.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 3
+                },
+                "Installer": {
+                    "InstallDir": "${TWHome}\\Tools\\TWBaseBuildSystem",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                }
+            },
+            "Linux": {
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Common-BuildTools",
+                    "Package": "twbasebuildsystem"
+                },
+                "VersionInfo": {
+                    "Command": "cat ${InstallDir}\\twbasebuildsystem.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 3
+                },
+                "Installer": {
+                    "InstallDir": "/usr/share/TWBaseBuildSystem",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                }
+            },
+            "MacOS": {
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Common-BuildTools",
+                    "Package": "twbasebuildsystem"
+                },
+                "VersionInfo": {
+                    "Command": "cat ${InstallDir}\\twbasebuildsystem.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 3
+                },
+                "Installer": {
+                    "InstallDir": "/Users/Shared/TWBaseBuildSystem",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
                 }
             }
         },
@@ -290,7 +363,7 @@
         {
             "Name": "git",
             "Windows": {
-                "VersionString": "2.45.0",
+                "VersionString": "2.40.0",
                 "VersionInfo": {
                     "Command": "git version",
                     "OutputType": "PlainText",
@@ -340,6 +413,11 @@
                         "FixCommand": "git config --global core.autocrlf false"
                     },
                     {
+                        "Command": "git config --global --default false core.ignoreCase",
+                        "ExpectedOutput": "false",
+                        "FixCommand": "git config --global core.ignoreCase false"
+                    },
+                    {
                         "Command": "git config --global user.name",
                         "ExpectedOutput": "${USERNAME}",
                         "FixCommand": "git config --global user.name \"${USERNAME}\""
@@ -352,7 +430,7 @@
                 ]
             },
             "Linux": {
-                "VersionString": "2.46.0",
+                "VersionString": "2.40.0",
                 "VersionInfo": {
                     "Command": "git version",
                     "OutputType": "PlainText",
@@ -393,7 +471,7 @@
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+MacOS+x64+and+ARM64+Host#InstallRequiredSoftwareonMacOSx64andARM64Host-InstallGit",
                     "InstallCommands": [
                         "brew install git",
-                        "sudo git config --global core.autocrlf input",
+                        "sudo /opt/homebrew/opt/git/bin/git config --global core.autocrlf input",
                         "OPTIONAL_LINK /usr/local/opt/git /opt/homebrew/opt/git"
                     ],
                     "UninstallCommands": [
@@ -404,7 +482,7 @@
                     {
                         "Command": "git config --global --default input core.autocrlf",
                         "ExpectedOutput": "input",
-                        "FixCommand": "git config --global core.autocrlf input"
+                        "FixCommand": "/opt/homebrew/opt/git/bin/git config --global core.autocrlf input"
                     }
                 ]
             }
@@ -583,7 +661,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "twbhadra"
                 },
@@ -611,7 +689,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Linux-${HOST-ARCH}-BuildTools",
                     "Package": "twbhadra"
                 },
@@ -630,7 +708,66 @@
                         "sudo chmod +x ${InstallDir}/TWBhadra"
                     ],
                     "UninstallCommands": [
+                        "sudo rm -fr ${InstallDir}"
+                    ]
+                },
+                "DependsOn": [ "AzureCLI" ]
+            }
+        },
+        {
+            "Name": "TWVastu",
+            "Windows": {
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Windows-${HOST-ARCH}-BuildTools",
+                    "Package": "twvastu"
+                },
+                "VersionInfo": {
+                    "Command": "${InstallDir}/TWVastu --version",
+                    "OutputType": "PlainText",
+                    "Prefix": "v",
+                    "Line": 1,
+                    "Column": 1
+                },
+                "Installer": {
+                    "InstallDoc": "",
+                    "InstallDir": "${TWHome}\\Tools\\TWVastu",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
+                    ]
+                },
+                "DependsOn": [ "AzureCLI" ]
+            },
+            "Linux": {
+                "ForPipelineOnly": true,
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Linux-${HOST-ARCH}-BuildTools",
+                    "Package": "twvastu"
+                },
+                "VersionInfo": {
+                    "Command": "${InstallDir}/TWVastu --version",
+                    "OutputType": "PlainText",
+                    "Prefix": "v",
+                    "Line": 1,
+                    "Column": 1
+                },
+                "Installer": {
+                    "InstallDoc": "",
+                    "InstallDir": "/usr/share/TWVastu",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD",
+                        "sudo chmod +x ${InstallDir}/TWVastu"
+                    ],
+                    "UninstallCommands": [
+                        "sudo rm -fr ${InstallDir}"
                     ]
                 },
                 "DependsOn": [ "AzureCLI" ]
@@ -639,10 +776,10 @@
         {
             "Name": "Java",
             "Windows": {
-                "VersionString": "17.0.11",
+                "VersionString": "17.0.13",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "java"
                 },
@@ -656,12 +793,9 @@
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallJava",
                     "InstallDir": "${TWHome}\\Tools\\Java",
                     "InstallCommands": [
-                        "ADO_DOWNLOAD",
-                        "${InstallDir}\\jdk-17.0.10_windows-${HOST-ARCH}_bin.exe /s ADDLOCAL=ToolsFeature INSTALLDIR=${TWHome}\\Tools\\Java",
-                        "del /f ${InstallDir}\\jdk-17.0.10_windows-${HOST-ARCH}_bin.exe"
+                        "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
-                        "wmic product where \"name like 'Java%%'\" call uninstall",
                         "rmdir /Q /S ${InstallDir}"
                     ],
                     "PostInstallMessage": "Please set JAVA_HOME System Environment Varable to ${InstallDir}"
@@ -791,7 +925,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "androidx"
                 },
@@ -874,7 +1008,7 @@
             "Linux": {
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Linux-${HOST-ARCH}-BuildTools",
                     "Package": "linuxbison"
                 },
@@ -936,7 +1070,7 @@
                 "VersionString": "7.2",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "gradle"
                 },
@@ -965,7 +1099,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "twclangformat"
                 },
@@ -1026,7 +1160,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Windows-Build-Libs",
                     "Package": "googletest"
                 },
@@ -1052,7 +1186,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Linux-Build-Libs",
                     "Package": "googletest"
                 },
@@ -1079,7 +1213,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "MacOS-Build-Libs",
                     "Package": "googletest"
                 },
@@ -1137,7 +1271,7 @@
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "windows_app_runtime"
                 },
@@ -1168,7 +1302,7 @@
                 "ForPipelineOnly": true,
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "report_generator"
                 },
@@ -1199,7 +1333,7 @@
                 "ForPipelineOnly": true,
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "junit2html"
                 },
@@ -1227,7 +1361,7 @@
                 "ForPipelineOnly": true,
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Linux-${HOST-ARCH}-BuildTools",
                     "Package": "junit2html"
                 },
@@ -1255,7 +1389,7 @@
                 "ForPipelineOnly": true,
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "MacOS-${HOST-ARCH}-BuildTools",
                     "Package": "junit2html"
                 },
@@ -1321,7 +1455,7 @@
                 "VersionString": "1.0.0",
                 "Artifactory": {
                     "Name": "ADOService",
-                    "Organization": "TWInduction2024",
+                    "Organization": "TallyWorld",
                     "Feed": "Windows-${HOST-ARCH}-BuildTools",
                     "Package": "winui3package"
                 },
@@ -1347,7 +1481,7 @@
         }
     ],
     "ValidationCMakeFile": "${BootstrapURL}/CMake/ValidateEnvironment.cmake",
-    "VSSettingsFile": "${BootstrapURL}/TWInduction2024.vssettings",
+    "VSSettingsFile": "${BootstrapURL}/TallyWorld.vssettings",
     "VisualStudioOptions": [
         {
             "Category": "TextEditor",
