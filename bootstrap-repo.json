@@ -13,56 +13,56 @@
             "TWRepoType": "TWSources",
             "Category": "BuildSupportPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/BuildSupportPlatform/_git/TWBuildSupport.Source",
-            "LocalPath": "TallyWorld\\BuildSupportPlatform\\TWBuildSupport.Source"
+            "LocalPath": "TallyWorld2025\\BuildSupportPlatform\\TWBuildSupport.Source"
         },
         {
             "RepoName": "TWDevSupport.Source",
             "TWRepoType": "TWSources",
             "Category": "DevSupportPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/DevSupportPlatform/_git/TWDevSupport.Source",
-            "LocalPath": "TallyWorld\\DevSupportPlatform\\TWDevSupport.Source"
+            "LocalPath": "TallyWorld2025\\DevSupportPlatform\\TWDevSupport.Source"
         },
         {
             "RepoName": "TWUniversal.Source",
             "TWRepoType": "TWSources",
             "Category": "UniversalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/UniversalPlatform/_git/TWUniversal.Source",
-            "LocalPath": "TallyWorld\\UniversalPlatform\\TWUniversal.Source"
+            "LocalPath": "TallyWorld2025\\UniversalPlatform\\TWUniversal.Source"
         },
         {
             "RepoName": "TWUniversal.Test",
             "TWRepoType": "TWTests",
             "Category": "UniversalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/UniversalPlatform/_git/TWUniversal.Test",
-            "LocalPath": "TallyWorld\\UniversalPlatform\\TWUniversal.Test"
+            "LocalPath": "TallyWorld2025\\UniversalPlatform\\TWUniversal.Test"
         },
         {
             "RepoName": "TWCoreBasic.Source",
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreBasic.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreBasic.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreBasic.Source"
         },
         {
             "RepoName": "TWCoreUtils.Source",
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreUtils.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreUtils.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreUtils.Source"
         },
         {
             "RepoName": "TWCoreMain.Source",
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreMain.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreMain.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreMain.Source"
         },
         {
             "RepoName": "TWCoreMain.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreMain.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreMain.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreMain.Test"
         },
 
         {
@@ -70,14 +70,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreFixedDataTypes.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreFixedDataTypes.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreFixedDataTypes.Source"
         },
         {
             "RepoName": "TWCoreFixedDataTypes.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreFixedDataTypes.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreFixedDataTypes.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreFixedDataTypes.Test"
         },
 
 
@@ -86,14 +86,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreBuffers.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreBuffers.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreBuffers.Source"
         },
         {
             "RepoName": "TWCoreBuffers.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreBuffers.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreBuffers.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreBuffers.Test"
         },
 
         {
@@ -101,14 +101,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreVariableDataTypes.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreVariableDataTypes.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreVariableDataTypes.Source"
         },
         {
             "RepoName": "TWNewCoreVariableDataTypes.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreVariableDataTypes.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreVariableDataTypes.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreVariableDataTypes.Test"
         },
 
         {
@@ -116,14 +116,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreVariableDataTypes.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreVariableDataTypes.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreVariableDataTypes.Source"
         },
         {
             "RepoName": "TWCoreVariableDataTypes.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreVariableDataTypes.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreVariableDataTypes.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreVariableDataTypes.Test"
         },
 
         {
@@ -131,14 +131,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreObject.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreObject.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreObject.Source"
         },
         {
             "RepoName": "TWNewCoreObject.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreObject.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreObject.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreObject.Test"
         },
 
         {
@@ -146,14 +146,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreObject.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreObject.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreObject.Source"
         },
         {
             "RepoName": "TWCoreObject.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreObject.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreObject.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreObject.Test"
         },
 
         {
@@ -161,14 +161,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreProcessMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreProcessMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreProcessMgr.Source"
         },
         {
             "RepoName": "TWNewCoreProcessMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreProcessMgr.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreProcessMgr.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreProcessMgr.Test"
         },
 
        {
@@ -176,14 +176,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreProcessMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreProcessMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreProcessMgr.Source"
         },
         {
             "RepoName": "TWCoreProcessMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreProcessMgr.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreProcessMgr.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreProcessMgr.Test"
         },
 
 
@@ -193,14 +193,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreStructures.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreStructures.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreStructures.Source"
         },
         {
             "RepoName": "TWNewCoreStructures.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreStructures.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreStructures.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreStructures.Test"
         },
 
         {
@@ -208,14 +208,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreStructures.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreStructures.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreStructures.Source"
         },
         {
             "RepoName": "TWCoreStructures.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreStructures.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreStructures.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreStructures.Test"
         },
 
         {
@@ -223,7 +223,7 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreBaseEngine.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreBaseEngine.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreBaseEngine.Source"
         },
 
         {
@@ -231,7 +231,7 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreBaseEngine.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreBaseEngine.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreBaseEngine.Source"
         },
 
         {
@@ -239,7 +239,7 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreSchemaMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreSchemaMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreSchemaMgr.Source"
         },
         
         {
@@ -247,14 +247,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreSchemaMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreSchemaMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreSchemaMgr.Source"
         },
         {
             "RepoName": "TWCoreSchemaMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreSchemaMgr.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreSchemaMgr.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreSchemaMgr.Test"
         },
 
 
@@ -263,28 +263,28 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreCacheStructures.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreCacheStructures.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreCacheStructures.Source"
         },
         {
             "RepoName": "TWCoreCacheStructures.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreCacheStructures.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreCacheStructures.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreCacheStructures.Test"
         },
         {
             "RepoName": "TWNewCoreCommIO.Source",
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreCommIO.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreCommIO.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreCommIO.Source"
         },
         {
             "RepoName": "TWNewCoreCommIO.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreCommIO.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreCommIO.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreCommIO.Test"
         },
 
         {
@@ -292,7 +292,7 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreNotification.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreNotification.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreNotification.Source"
         },
 
         {
@@ -300,7 +300,7 @@
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreNotification.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreNotification.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreNotification.Test"
         },
         
         {
@@ -308,14 +308,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreCommMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreCommMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreCommMgr.Source"
         },
         {
             "RepoName": "TWNewCoreCommMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreCommMgr.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreCommMgr.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreCommMgr.Test"
         },
         
         {
@@ -323,7 +323,7 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreCommIO.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreCommIO.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreCommIO.Source"
         },
 
         {
@@ -331,7 +331,7 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreNotification.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreNotification.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreNotification.Source"
         },
 
         {
@@ -339,7 +339,7 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreCommMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreCommMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreCommMgr.Source"
         },
         
         {
@@ -347,14 +347,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreDiskIO.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDiskIO.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreDiskIO.Source"
         },
         {
             "RepoName": "TWNewCoreDiskIO.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreDiskIO.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDiskIO.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreDiskIO.Test"
         },
 
         {
@@ -362,14 +362,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreDiskMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDiskMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreDiskMgr.Source"
         },
         {
             "RepoName": "TWNewCoreDiskMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreDiskMgr.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDiskMgr.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreDiskMgr.Test"
         },
 
         {
@@ -377,14 +377,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreDataMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDataMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreDataMgr.Source"
         },
         {
             "RepoName": "TWNewCoreDataMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWNewCoreDataMgr.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDataMgr.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWNewCoreDataMgr.Test"
         },
 
         {
@@ -392,14 +392,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDiskIO.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDiskIO.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDiskIO.Source"
         },
         {
             "RepoName": "TWCoreDiskIO.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDiskIO.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDiskIO.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDiskIO.Test"
         },
 
         {
@@ -407,14 +407,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDiskMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDiskMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDiskMgr.Source"
         },
         {
             "RepoName": "TWCoreDiskMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDiskMgr.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDiskMgr.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDiskMgr.Test"
         },
 
         {
@@ -422,14 +422,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDataMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDataMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDataMgr.Source"
         },
         {
             "RepoName": "TWCoreDataMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDataMgr.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDataMgr.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDataMgr.Test"
         },
 
 
@@ -438,14 +438,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDeviceIOMain.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDeviceIOMain.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDeviceIOMain.Source"
         },
         {
             "RepoName": "TWCoreDeviceIOMain.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDeviceIOMain.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDeviceIOMain.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDeviceIOMain.Test"
         },
 
         {
@@ -453,14 +453,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDeviceIOWorker.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDeviceIOWorker.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDeviceIOWorker.Source"
         },
         {
             "RepoName": "TWCoreDeviceIOWorker.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDeviceIOWorker.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDeviceIOWorker.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDeviceIOWorker.Test"
         },
 
         {
@@ -468,14 +468,14 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDeviceMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDeviceMgr.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDeviceMgr.Source"
         },
         {
             "RepoName": "TWCoreDeviceMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreDeviceMgr.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDeviceMgr.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreDeviceMgr.Test"
         },
 
 
@@ -484,28 +484,28 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreApplicationEngine.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreApplicationEngine.Source"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreApplicationEngine.Source"
         },
         {
             "RepoName": "TWCoreApplicationEngine.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/FoundationalPlatform/_git/TWCoreApplicationEngine.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreApplicationEngine.Test"
+            "LocalPath": "TallyWorld2025\\FoundationalPlatform\\TWCoreApplicationEngine.Test"
         },
         {
             "RepoName": "TWAdminEngine.Source",
             "TWRepoType": "TWSources",
             "Category": "AdminPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/AdminPlatform/_git/TWAdminEngine.Source",
-            "LocalPath": "TallyWorld\\AdminPlatform\\TWAdminEngine.Source"
+            "LocalPath": "TallyWorld2025\\AdminPlatform\\TWAdminEngine.Source"
         },
         {
             "RepoName": "TWAdminEngine.Test",
             "TWRepoType": "TWTests",
             "Category": "AdminPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/AdminPlatform/_git/TWAdminEngine.Test",
-            "LocalPath": "TallyWorld\\AdminPlatform\\TWAdminEngine.Test"
+            "LocalPath": "TallyWorld2025\\AdminPlatform\\TWAdminEngine.Test"
         },
 
         {
@@ -513,7 +513,7 @@
             "TWRepoType": "TWSources",
             "Category": "AdminPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/AdminPlatform/_git/TWAkashAdminEngine.Source",
-            "LocalPath": "TallyWorld\\AdminPlatform\\TWAkashAdminEngine.Source"
+            "LocalPath": "TallyWorld2025\\AdminPlatform\\TWAkashAdminEngine.Source"
         },
 
         {
@@ -521,14 +521,14 @@
             "TWRepoType": "TWSources",
             "Category": "ServerPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/ServerPlatform/_git/TWServerEngine.Source",
-            "LocalPath": "TallyWorld\\ServerPlatform\\TWServerEngine.Source"
+            "LocalPath": "TallyWorld2025\\ServerPlatform\\TWServerEngine.Source"
         },
         {
             "RepoName": "TWServerEngine.Test",
             "TWRepoType": "TWTests",
             "Category": "ServerPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/ServerPlatform/_git/TWServerEngine.Test",
-            "LocalPath": "TallyWorld\\ServerPlatform\\TWServerEngine.Test"
+            "LocalPath": "TallyWorld2025\\ServerPlatform\\TWServerEngine.Test"
         },
 
         {
@@ -536,14 +536,14 @@
             "TWRepoType": "TWSources",
             "Category": "ClientPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/ClientPlatform/_git/TWInteractionEngine.Source",
-            "LocalPath": "TallyWorld\\ClientPlatform\\TWInteractionEngine.Source"
+            "LocalPath": "TallyWorld2025\\ClientPlatform\\TWInteractionEngine.Source"
         },
         {
             "RepoName": "TWInteractionEngine.Test",
             "TWRepoType": "TWTests",
             "Category": "ClientPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/ClientPlatform/_git/TWInteractionEngine.Test",
-            "LocalPath": "TallyWorld\\ClientPlatform\\TWInteractionEngine.Test"
+            "LocalPath": "TallyWorld2025\\ClientPlatform\\TWInteractionEngine.Test"
         },
 
         {
@@ -551,14 +551,14 @@
             "TWRepoType": "TWSources",
             "Category": "ClientPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/ClientPlatform/_git/TWVisualEngine.Source",
-            "LocalPath": "TallyWorld\\ClientPlatform\\TWVisualEngine.Source"
+            "LocalPath": "TallyWorld2025\\ClientPlatform\\TWVisualEngine.Source"
         },
         {
             "RepoName": "TWVisualEngine.Test",
             "TWRepoType": "TWTests",
             "Category": "ClientPlatform",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/ClientPlatform/_git/TWVisualEngine.Test",
-            "LocalPath": "TallyWorld\\ClientPlatform\\TWVisualEngine.Test"
+            "LocalPath": "TallyWorld2025\\ClientPlatform\\TWVisualEngine.Test"
         },
 
         {
@@ -566,42 +566,42 @@
             "TWRepoType": "TWSources",
             "Category": "InternalToolsLib",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/InternalToolsLib/_git/TWInternalToolsLib.Source",
-            "LocalPath": "TallyWorld\\InternalToolsLib\\TWInternalToolsLib.Source"
+            "LocalPath": "TallyWorld2025\\InternalToolsLib\\TWInternalToolsLib.Source"
         },
         {
             "RepoName": "TWInternalApplications.Source",
             "TWRepoType": "TWSources",
             "Category": "Applications",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/Applications/_git/TWInternalApplications.Source",
-            "LocalPath": "TallyWorld\\Applications\\TWInternalApplications.Source"
+            "LocalPath": "TallyWorld2025\\Applications\\TWInternalApplications.Source"
         },
         {
             "RepoName": "TWProducts.Source",
             "TWRepoType": "TWSources",
             "Category": "Applications",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/Applications/_git/TWProducts.Source",
-            "LocalPath": "TallyWorld\\Applications\\TWProducts.Source"
+            "LocalPath": "TallyWorld2025\\Applications\\TWProducts.Source"
         },
         {
             "RepoName": "TWProducts.Test",
             "TWRepoType": "TWTests",
             "Category": "Applications",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/Applications/_git/TWProducts.Test",
-            "LocalPath": "TallyWorld\\Applications\\TWProducts.Test"
+            "LocalPath": "TallyWorld2025\\Applications\\TWProducts.Test"
         },
         {
             "RepoName": "TWSpaceApplications.Source",
             "TWRepoType": "TWSources",
             "Category": "Applications",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/Applications/_git/TWSpaceApplications.Source",
-            "LocalPath": "TallyWorld\\Applications\\TWSpaceApplications.Source"
+            "LocalPath": "TallyWorld2025\\Applications\\TWSpaceApplications.Source"
         },
         {
             "RepoName": "TWUtilities.Source",
             "TWRepoType": "TWSources",
             "Category": "Applications",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/Applications/_git/TWUtilities.Source",
-            "LocalPath": "TallyWorld\\Applications\\TWUtilities.Source"
+            "LocalPath": "TallyWorld2025\\Applications\\TWUtilities.Source"
         },
 
 
@@ -610,14 +610,14 @@
             "TWRepoType": "TWSources",
             "Category": "InternalTools",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/InternalTools/_git/TWDevTools.Source",
-            "LocalPath": "TallyWorld\\InternalTools\\TWDevTools.Source"
+            "LocalPath": "TallyWorld2025\\InternalTools\\TWDevTools.Source"
         },
         {
             "RepoName": "TWQATools.Source",
             "TWRepoType": "TWSources",
             "Category": "InternalTools",
             "RemoteUrl": "https://dev.azure.com/TWInduction2025/InternalTools/_git/TWQATools.Source",
-            "LocalPath": "TallyWorld\\InternalTools\\TWQATools.Source"
+            "LocalPath": "TallyWorld2025\\InternalTools\\TWQATools.Source"
         },
 
         {
