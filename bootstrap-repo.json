@@ -654,14 +654,14 @@
             "RepoName": "TWVSExtension",
             "TWRepoType": "TWSecondary",
             "Category": "TallySolutions",
-            "RemoteUrl": "https://github.com/TallySolutionsInduction2025/TWVSExtension.git",
+            "RemoteUrl": "https://github.com/TallySolutions/TWExtensionInduction2025.git",
             "LocalPath": "TallySolutionsInduction2025\\TWVSExtension"
         },
         {
             "RepoName": "OPS",
             "TWRepoType": "ThirdParty",
             "Category": "ThirdParty",
-            "RemoteUrl": "https://github.com/TallySolutionsInduction2025/ops.git",
+            "RemoteUrl": "https://github.com/TallySolutions/ops.git",
             "LocalPath": "ThirdParty\\OPS"
         }
     ],
