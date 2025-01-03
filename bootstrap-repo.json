@@ -577,6 +577,20 @@
             "LocalPath": "TWInduction2025\\InternalToolsLib\\TWInternalToolsLib.Source"
         },
         {
+            "RepoName": "TWDevTools.Source",
+            "TWRepoType": "TWSources",
+            "Category": "InternalTools",
+            "RemoteUrl": "https://dev.azure.com/TWInduction2025/InternalTools/_git/TWDevTools.Source",
+            "LocalPath": "TWInduction2025\\InternalTools\\TWDevTools.Source"
+        },
+        {
+            "RepoName": "TWQATools.Source",
+            "TWRepoType": "TWSources",
+            "Category": "InternalTools",
+            "RemoteUrl": "https://dev.azure.com/TWInduction2025/InternalTools/_git/TWQATools.Source",
+            "LocalPath": "TWInduction2025\\InternalTools\\TWQATools.Source"
+        },
+        {
             "RepoName": "TWInternalApplications.Source",
             "TWRepoType": "TWSources",
             "Category": "Applications",
@@ -612,21 +626,6 @@
             "LocalPath": "TWInduction2025\\Applications\\TWUtilities.Source"
         },
 
-
-        {
-            "RepoName": "TWDevTools.Source",
-            "TWRepoType": "TWSources",
-            "Category": "InternalTools",
-            "RemoteUrl": "https://dev.azure.com/TWInduction2025/InternalTools/_git/TWDevTools.Source",
-            "LocalPath": "TWInduction2025\\InternalTools\\TWDevTools.Source"
-        },
-        {
-            "RepoName": "TWQATools.Source",
-            "TWRepoType": "TWSources",
-            "Category": "InternalTools",
-            "RemoteUrl": "https://dev.azure.com/TWInduction2025/InternalTools/_git/TWQATools.Source",
-            "LocalPath": "TWInduction2025\\InternalTools\\TWQATools.Source"
-        },
 
         {
             "RepoName": "TallyPMT.Source",
