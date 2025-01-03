@@ -517,6 +517,14 @@
         },
 
         {
+            "RepoName": "TWHelloAdminEngine.Source",
+            "TWRepoType": "TWSources",
+            "Category": "AdminPlatform",
+            "RemoteUrl": "https://dev.azure.com/TWInduction2025/AdminPlatform/_git/TWHelloAdminEngine.Source",
+            "LocalPath": "TWInduction2025\\AdminPlatform\\TWHelloAdminEngine.Source"
+        },
+
+        {
             "RepoName": "TWServerEngine.Source",
             "TWRepoType": "TWSources",
             "Category": "ServerPlatform",
